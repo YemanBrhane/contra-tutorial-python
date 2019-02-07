@@ -18,9 +18,6 @@ Build the docker image:
 Run the container with the app included:
 ```docker run -it --rm -v <path to the folder with app and data>:/tutorial contra-python bash ```
 
-In the container you may need to run additional commands:
-```export LC_ALL=C.UTF-8```
-```export LANG=C.UTF-8```
 
 
 ## Usage of the application
